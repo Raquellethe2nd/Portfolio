@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "name": "Floral Journal",
+        "price": 12.99,
+        "category": "Stationery",
+        "image": "https://m.media-amazon.com/images/I/71dwPfGxmSL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+        "description": "A soft-bound journal blooming with vintage florals—perfect for dreamy thoughts and garden sketches."
+    },
+    {
+        "id": 2,
+        "name": "Vintage Teacup",
+        "price": 8.5,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/736x/91/9c/8b/919c8b538fbd8be6658b6aed31cd3855.jpg",
+        "description": "Sip your herbal tea from a porcelain cup kissed by roses and countryside nostalgia."
+    },
+    {
+        "id": 3,
+        "name": "Flower Lamp",
+        "price": 24.99,
+        "category": "Decor",
+        "image": "https://i.pinimg.com/736x/8c/97/bb/8c97bbf2ada0eb2ca1a7d7d667e86bc1.jpg",
+        "description": "A glowing bloom to light your reading nook with fairy-tale warmth."
+    },
+    {
+        "id": 4,
+        "name": "Flip Phone",
+        "price": 15.0,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/736x/81/7d/ed/817ded55f8c938e1f0f764f2c458c0c4.jpg",
+        "description": "Retro charm meets modern whimsy—perfect for cottagecore selfies and secret garden calls."
+    },
+    {
+        "id": 5,
+        "name": "Pressed Flower Bookmark",
+        "price": 4.25,
+        "category": "Stationery",
+        "image": "https://i.pinimg.com/736x/25/86/08/258608d42cd222f0992336625e96e691.jpg",
+        "description": "Mark your page with a whisper of wildflowers and woodland wonder."
+    },
+    {
+        "id": 6,
+        "name": "Lace Gloves",
+        "price": 18.75,
+        "category": "Accessories",
+        "image": "https://m.media-amazon.com/images/I/81UUB2azFoL._AC_SX342_.jpg",
+        "description": "Delicate lace gloves for moonlit strolls and vintage daydreams."
+    },
+    {
+        "id": 7,
+        "name": "Cottage Mug",
+        "price": 10.0,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/736x/8c/35/b4/8c35b48d28fecbd9580d80bce16bbfa0.jpg",
+        "description": "A cozy ceramic hug for your morning brew—painted with pastel petals."
+    },
+    {
+        "id": 8,
+        "name": "Handmade Soap",
+        "price": 6.5,
+        "category": "Bath",
+        "image": "https://i.pinimg.com/736x/10/60/8a/10608a1e6f1041224e6da46455622156.jpg",
+        "description": "Infused with lavender and love—each bar a meadow in your palm."
+    },
+    {
+        "id": 9,
+        "name": "Knitted Blanket",
+        "price": 35.0,
+        "category": "Decor",
+        "image": "https://i.etsystatic.com/49941427/r/il/e4c024/6688670766/il_1588xN.6688670766_e60q.jpg",
+        "description": "Wrap yourself in warmth woven from cottage clouds and grandma’s hugs."
+    },
+    {
+        "id": 10,
+        "name": "15 Clothespins",
+        "price": 3.99,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/736x/0d/29/ed/0d29ede247c60c8d0c30ebbac096083c.jpg",
+        "description": "Hang your linens with rustic charm—each pin a whisper of simpler times."
+    },
+    {
+        "id": 11,
+        "name": "Straw Hat",
+        "price": 14.5,
+        "category": "Accessories",
+        "image": "https://m.media-amazon.com/images/I/61a+FbP8DwL._AC_SX425_.jpg",
+        "description": "Sun-kissed and storybook-ready—your perfect companion for garden wanderings."
+    },
+    {
+        "id": 12,
+        "name": "Tea Set",
+        "price": 9.99,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/736x/ec/22/2c/ec222c7ae70cf7b256b5f1ddf0076821.jpg",
+        "description": "Porcelain petals and pastel dreams—host your own woodland tea party."
+    },
+    {
+        "id": 13,
+        "name": "Wooden Spoon Set",
+        "price": 11.25,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/1200x/c5/42/27/c542271eff47a28618a03edf1203a946.jpg",
+        "description": "Stir your stews with hand-carved spoons kissed by forest spirits."
+    },
+    {
+        "id": 14,
+        "name": "Earring Set",
+        "price": 16.0,
+        "category": "Accessories",
+        "image": "https://m.media-amazon.com/images/I/719E-NmFNJL._AC_SY395_.jpg",
+        "description": "Tiny treasures for your ears—each pair a whisper of woodland magic."
+    },
+    {
+        "id": 15,
+        "name": "Patchwork Tote",
+        "price": 22.0,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/1200x/ee/33/46/ee3346a12ba13a18b541deb85c591326.jpg",
+        "description": "Carry your dreams in a quilted hug of floral fabrics and stitched stories."
+    },
+    {
+        "id": 16,
+        "name": "Candle Set",
+        "price": 7.5,
+        "category": "Bath",
+        "image": "https://i.pinimg.com/736x/35/23/d3/3523d30c1e27efc2a7b42f308ba2213f.jpg",
+        "description": "Soft flames and lavender scents—light your evenings with cottage calm."
+    },
+    {
+        "id": 17,
+        "name": "Strawberry Slippers",
+        "price": 19.99,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/736x/08/08/20/08082049cb9e33b81fd6cbe2d6782050.jpg",
+        "description": "Plush berries for your feet—perfect for tiptoeing through fairy-tale mornings."
+    },
+    {
+        "id": 18,
+        "name": "Floral Vase",
+        "price": 13.0,
+        "category": "Decor",
+        "image": "https://i.pinimg.com/736x/04/80/9f/04809f445775b05edf65772b67c139d9.jpg",
+        "description": "A ceramic bloom to cradle your wildflowers and window sill wishes."
+    },
+    {
+        "id": 19,
+        "name": "Tomato Headphones",
+        "price": 17.5,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/1200x/b2/f9/4d/b2f94d7120f45963892f1b04319d33ff.jpg",
+        "description": "Juicy beats and garden vibes—listen to your playlist in produce style."
+    },
+    {
+        "id": 20,
+        "name": "Apple Bowl",
+        "price": 6.75,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/1200x/dd/fb/0f/ddfb0fbc1619cea1c50b090e2fda94db.jpg",
+        "description": "A crisp ceramic cradle for your orchard harvest or morning granola."
+    },
+    {
+        "id": 21,
+        "name": "Mushroom Trinket Dish",
+        "price": 9.25,
+        "category": "Decor",
+        "image": "https://i.pinimg.com/736x/85/88/5b/85885b05baf9ddb1e1049e13dee2848e.jpg",
+        "description": "A tiny ceramic mushroom to hold your rings, wishes, and forest secrets."
+    },
+    {
+        "id": 22,
+        "name": "Gingham Picnic Blanket",
+        "price": 28.00,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/1200x/1d/d9/55/1dd9558e1bb79b28eb3ad140706b4131.jpg",
+        "description": "Spread out under the sun with this classic gingham blanket woven for daydreams."
+    },
+    {
+        "id": 23,
+        "name": "Lavender Sleep Mask",
+        "price": 12.50,
+        "category": "Bath",
+        "image": "https://i.pinimg.com/736x/9a/00/ff/9a00ff0cd4a1b66fde2b68523d8d6284.jpg",
+        "description": "Drift into dreams with a soft mask scented like twilight meadows."
+    },
+    {
+        "id": 24,
+        "name": "Mini Greenhouse Kit",
+        "price": 19.99,
+        "category": "Decor",
+        "image": "https://i.pinimg.com/1200x/28/e4/c9/28e4c9bba3bbc8d3362759dec675e944.jpg",
+        "description": "Grow your own fairy garden with this tiny glass greenhouse and starter seeds."
+    },
+    {
+        "id": 25,
+        "name": "Rose Gold Sewing Kit",
+        "price": 14.75,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/736x/49/3a/ba/493abab50a356143b52f694cd4a9e8cf.jpg",
+        "description": "Stitch your stories with rose gold scissors and pastel thread spools."
+    },
+    {
+        "id": 26,
+        "name": "Herbal Bath Salts",
+        "price": 8.99,
+        "category": "Bath",
+        "image": "https://i.pinimg.com/1200x/80/e5/d3/80e5d30623b37e78946ef36a5503e136.jpg",
+        "description": "Soak in serenity with lavender, mint, and chamomile crystals."
+    },
+    {
+        "id": 27,
+        "name": "Sunflower Hair Clip",
+        "price": 5.50,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/736x/0f/5c/73/0f5c73e68e61a5d70261ac49389f3d8c.jpg",
+        "description": "A cheerful bloom to tuck behind your ear or brighten your braid."
+    },
+    {
+        "id": 28,
+        "name": "Rustic Recipe Cards",
+        "price": 6.25,
+        "category": "Stationery",
+        "image": "https://m.media-amazon.com/images/I/91wXr1fd47L._AC_SY450_.jpg",
+        "description": "Handwrite your heirloom recipes on kraft paper kissed with floral borders."
+    },
+    {
+        "id": 29,
+        "name": "Wildflower Seed Pack",
+        "price": 4.99,
+        "category": "Decor",
+        "image": "https://i.pinimg.com/736x/4b/f2/cd/4bf2cd01bffb27d4b5edcb5ea331403e.jpg",
+        "description": "Scatter joy with a mix of meadow blooms ready to sprout in your backyard."
+    },
+    {
+        "id": 30,
+        "name": "Cottagecore Sticker Sheet",
+        "price": 3.75,
+        "category": "Stationery",
+        "image": "https://i.pinimg.com/736x/eb/b8/08/ebb808ff873806c1aec70fa01a00354f.jpg",
+        "description": "Decorate your journal with mushrooms, teacups, and tiny forest friends."
+    },
+    {
+        "id": 31,
+        "name": "Pastel Apron",
+        "price": 16.50,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/736x/5b/72/aa/5b72aaf4d90e078e6a14926ff8027266.jpg",
+        "description": "Bake in style with this soft pastel apron trimmed in lace and love."
+    },
+    {
+        "id": 32,
+        "name": "Mini Wicker Basket",
+        "price": 7.25,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/1200x/26/7c/15/267c157583bab039ed61b16297a5bc5d.jpg",
+        "description": "Perfect for collecting wildflowers, berries, or tiny trinkets."
+    },
+    {
+        "id": 33,
+        "name": "Cloud-Shaped Mirror",
+        "price": 21.00,
+        "category": "Decor",
+        "image": "https://i.pinimg.com/1200x/8d/fd/97/8dfd9721b976b5597d059eaf5b6daed6.jpg",
+        "description": "Reflect your daydreams in a mirror shaped like a drifting cloud."
+    },
+    {
+        "id": 34,
+        "name": "Berry-Colored Yarn Bundle",
+        "price": 13.99,
+        "category": "Accessories",
+        "image": "https://i.pinimg.com/1200x/45/40/f3/4540f3fc965984b5a64516ca8e1612c9.jpg",
+        "description": "Knit your next cozy creation with yarn spun in berry hues."
+    },
+    {
+        "id": 35,
+        "name": "Ceramic Honey Pot",
+        "price": 11.50,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/736x/ba/9c/ed/ba9ced4535a3fb63a93ee14deb255cb9.jpg",
+        "description": "Sweeten your mornings with a honey pot shaped like a sleepy bee."
+    },
+    {
+        "id": 36,
+        "name": "Botanical Print Set",
+        "price": 18.00,
+        "category": "Decor",
+        "image": "https://m.media-amazon.com/images/I/91cqgsPr08L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+        "description": "Frame your walls with vintage illustrations of herbs and blooms."
+    },
+    {
+        "id": 37,
+        "name": "Moon Phase Garland",
+        "price": 15.75,
+        "category": "Decor",
+        "image": "https://m.media-amazon.com/images/I/51DysUjryZL._SX342_SY445_QL70_FMwebp_.jpg",
+        "description": "Hang the lunar cycle above your bed for celestial cottagecore vibes."
+    },
+    {
+        "id": 38,
+        "name": "Vintage Postcard Pack",
+        "price": 6.00,
+        "category": "Stationery",
+        "image": "https://m.media-amazon.com/images/I/813kfJbNr1S._AC_SY450_.jpg",
+        "description": "Send a note from another era—each card a whisper from the past."
+    },
+    {
+        "id": 39,
+        "name": "Acorn Measuring Spoons",
+        "price": 9.99,
+        "category": "Kitchen",
+        "image": "https://i.pinimg.com/736x/28/82/5c/28825c66ad80e4e28727eab1f0867f1b.jpg",
+        "description": "Bake with forest flair—each spoon shaped like a woodland acorn."
+    },
+    {
+        "id": 40,
+        "name": "Fairy Dust Perfume Roller",
+        "price": 12.25,
+        "category": "Bath",
+        "image": "https://i.pinimg.com/736x/fd/7e/6e/fd7e6ebf6f46411c2dcdac5640b6f3bd.jpg",
+        "description": "Roll on a shimmer of lavender and moonlight—your scent of enchantment."
+    }
+]

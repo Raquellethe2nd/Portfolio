@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout – Moss & Moon Market</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="checkout-container">
+        <h2>Shipping Info (FAKE)</h2>
+        <form id="checkout-form">
+            <label>Name:
+                <input type="text" name="name" required />
+            </label>
+            <label>Address:
+                <input type="text" name="address" required />
+            </label>
+            <label>City:
+                <input type="text" name="city" required />
+            </label>
+            <label>Zip Code:
+                <input type="text" name="zip" required />
+            </label>
+
+            <h2>Payment Info (FAKE)</h2>
+            <label>Card Number:
+                <input type="text" name="card" required />
+            </label>
+            <label>Expiration Date:
+                <input type="text" name="exp" required />
+            </label>
+            <label>CVV:
+                <input type="text" name="cvv" required />
+            </label>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("checkout-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Thank you for your order! 🌸 Your cozy package is on its way.");
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moss & Moon Market</title>
+    <meta name="description" content="A whimsical demo shop filled with cozy treasures and cottagecore charm." />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="nav-brand">Moss & Moon</div>
+        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links">
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Section -->
+    <section id="landing" class="landing-hero">
+        <div class="hero-video-bg">
+            <video autoplay muted loop playsinline>
+                <source src="./Pink Playful Thank You Youtube Outro Video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-content-box">
+            <h1>Welcome to Moss & Moon Market</h1>
+            <div class="hero-text-box">
+                <p>A cozy corner of the web where whimsy meets code. Scroll down to explore our magical shop.</p>
+            </div>
+            <a href="#shop" class="hero-button">Enter the Shop 🛒</a>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <header>
+            <h1>Moss & Moon Market</h1>
+            <div class="header-controls">
+                <input type="text" id="search" placeholder="Search cozy things..." />
+                <select id="sort">
+                    <option value="">Sort by</option>
+                    <option value="low">Price: Low → High</option>
+                    <option value="high">Price: High → Low</option>
+                    <option value="az">Name: A → Z</option>
+                </select>
+                <button id="open-cart">Cart 🧺</button>
+            </div>
+        </header>
+
+        <!-- Category Navigation -->
+        <nav class="category-nav">
+            <button class="category-btn active" data-category="all">All Items</button>
+            <button class="category-btn" data-category="Accessories">Accessories</button>
+            <button class="category-btn" data-category="Kitchen">Kitchen</button>
+            <button class="category-btn" data-category="Decor">Decor</button>
+            <button class="category-btn" data-category="Bath">Bath</button>
+            <button class="category-btn" data-category="Stationery">Stationery</button>
+        </nav>
+
+        <div id="cart-panel" class="cart-panel hidden">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button id="close-cart">✕</button>
+            </div>
+            <div id="cart"></div>
+            <p id="cart-total">Total: $0.00</p>
+            <button id="buy-now">Buy Now</button>
+            <button id="clear-cart">Clear Cart</button>
+        </div>
+
+        <main>
+            <div id="products" class="product-grid"></div>
+            <div class="pagination">
+                <button onclick="prevPage()">←</button>
+                <div id="page-buttons"></div>
+                <button onclick="nextPage()">→</button>
+            </div>
+        </main>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox hidden">
+            <div class="lightbox-content">
+                <span id="close-lightbox" class="lightbox-close">✕</span>
+                <img id="lightbox-image" src="" alt="">
+                <div class="lightbox-info">
+                    <h3 id="lightbox-title"></h3>
+                    <p id="lightbox-category"></p>
+                    <p id="lightbox-price"></p>
+                </div>
+                <div class="lightbox-nav">
+                    <button id="prev-image">← Previous</button>
+                    <button id="next-image">Next →</button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
