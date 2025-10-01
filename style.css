@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Galaxy base --- */
+body {
+    color: #f7f7ff;
+    background: radial-gradient(1200px 800px at 10% 10%, rgba(255, 105, 180, 0.1), transparent 60%),
+        radial-gradient(1000px 700px at 90% 30%, rgba(135, 206, 250, 0.12), transparent 65%),
+        radial-gradient(900px 900px at 40% 80%, rgba(255, 215, 0, 0.08), transparent 70%),
+        #0b0f1a;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Starfield layers */
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-repeat: repeat;
+    z-index: -2;
+}
+
+body::before {
+    background-image: radial-gradient(1px 1px at 20px 30px, #ffffff66 50%, transparent 52%),
+        radial-gradient(1px 1px at 130px 80px, #a0cfff66 50%, transparent 52%),
+        radial-gradient(1px 1px at 70px 120px, #ffd6a566 50%, transparent 52%);
+    background-size: 200px 200px;
+    animation: twinkle 9s linear infinite;
+}
+
+body::after {
+    background-image: radial-gradient(1px 1px at 60px 40px, #ffffff85 50%, transparent 52%),
+        radial-gradient(1px 1px at 160px 140px, #b0ffe385 50%, transparent 52%),
+        radial-gradient(1px 1px at 100px 170px, #ffd0ff85 50%, transparent 52%);
+    background-size: 300px 300px;
+    animation: drift 50s linear infinite;
+    z-index: -3;
+}
+
+@keyframes twinkle {
+
+    0%,
+    100% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes drift {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+/* --- Navigation --- */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(15, 19, 34, 0.7);
+    backdrop-filter: blur(8px);
+    padding: 16px 24px;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+}
+
+nav a {
+    color: #e6eeff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    letter-spacing: 0.4px;
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #ff6f61, #8a7dff, #6fffe9);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 300ms ease;
+    border-radius: 2px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #8a7dff66, 0 0 18px #6fffe955;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+/* --- Hero --- */
+.Hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 20px 40px;
+    position: relative;
+}
+
+.Hero h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    text-shadow: 0 0 12px #ff6f6170, 0 0 28px #8a7dff55;
+    animation: titleGlow 4s ease-in-out infinite;
+}
+
+.Hero p {
+    margin-top: 12px;
+    font-size: clamp(1rem, 2.2vw, 1.3rem);
+    color: #d6dcff;
+}
+
+@keyframes titleGlow {
+
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ff6f6160, 0 0 24px #6fffe955;
+    }
+
+    50% {
+        text-shadow: 0 0 12px #ffd36f70, 0 0 32px #8a7dff66;
+    }
+}
+
+.Button {
+    margin-top: 28px;
+    background: radial-gradient(120% 120% at 30% 30%, #8a7dff, #ff6f61);
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 999px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 0 12px #ff6f6160, 0 0 28px #8a7dff40 inset;
+    animation: bounce 2.4s infinite;
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.Button:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 0 16px #ffd36f80, 0 0 30px #8a7dff70 inset;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+/* --- Projects --- */
+.Projects {
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.Projects h2 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    margin-bottom: 24px;
+    text-shadow: 0 0 10px #6fffe940, 0 0 20px #8a7dff30;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.project-box {
+    --glowA: #6fffe9;
+    --glowB: #8a7dff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 28px;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    transition: transform 300ms ease, box-shadow 300ms ease, border-color 300ms ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-box::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    background: conic-gradient(from 180deg, var(--glowA), var(--glowB), #ff6f61, var(--glowA));
+    filter: blur(16px);
+    opacity: 0;
+    transition: opacity 300ms ease;
+    z-index: -1;
+}
+
+.project-box a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.project-box h3 {
+    font-weight: 700;
+    letter-spacing: .3px;
+}
+
+.project-box:hover {
+    transform: translateY(-6px) rotate(-1deg) scale(1.02);
+    box-shadow: 0 8px 30px -6px rgba(138, 125, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.project-box:hover::before {
+    opacity: 0.9;
+}
+
+/* Coming soon style */
+.project-box.coming-soon {
+    opacity: 0.85;
+}
+
+.project-box.coming-soon a {
+    pointer-events: none;
+}
+
+.project-box.coming-soon h3::after {
+    content: " ✧";
+    color: #ffd36f;
+    text-shadow: 0 0 8px #ffd36f88;
+}
+
+.note {
+    margin-top: 20px;
+    font-style: italic;
+    color: #c6cfff;
+    opacity: 0.9;
+}
+
+/* Scroll reveal utility */
+[data-reveal] {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity .6s ease, transform .6s ease;
+}
+
+[data-reveal].revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* --- Footer --- */
+footer {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* --- Planet Project Boxes --- */
+.planet-section-title {
+    margin: 40px 0 30px 0;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    color: #ffd36f;
+    text-shadow: 0 0 10px #ffd36f66;
+}
+
+.planet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+    justify-items: center;
+}
+
+.planet-box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.planet-content {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    position: relative;
+}
+
+.planet-content h4 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.planet-content p {
+    font-size: 0.7rem;
+    color: #f0f0f0;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+.planet-box:hover {
+    transform: scale(1.2) rotate(5deg);
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+}
+
+.planet-box:hover .planet-content {
+    opacity: 1;
+}
+
+/* Planet-specific colors and effects */
+.planet-box.mercury {
+    background: radial-gradient(circle at 30% 30%, #c0c0c0, #8c8c8c, #606060);
+}
+
+.planet-box.mercury:hover {
+    background: radial-gradient(circle at 30% 30%, #e0e0e0, #c0c0c0, #8c8c8c);
+    box-shadow: 0 8px 30px rgba(192, 192, 192, 0.4);
+}
+
+.planet-box.venus {
+    background: radial-gradient(circle at 30% 30%, #ffc649, #ff9500, #cc7a00);
+}
+
+.planet-box.venus:hover {
+    background: radial-gradient(circle at 30% 30%, #ffdd49, #ffc649, #ff9500);
+    box-shadow: 0 8px 30px rgba(255, 198, 73, 0.5);
+}
+
+.planet-box.earth {
+    background: radial-gradient(circle at 30% 30%, #6b93d6, #4a7ba7, #2e5984);
+    position: relative;
+}
+
+.planet-box.earth::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    background: #4a7c59;
+    border-radius: 50%;
+    top: 20%;
+    left: 25%;
+    opacity: 0.8;
+}
+
+.planet-box.earth:hover {
+    background: radial-gradient(circle at 30% 30%, #87ceeb, #6b93d6, #4a7ba7);
+    box-shadow: 0 8px 30px rgba(107, 147, 214, 0.5);
+}
+
+.planet-box.mars {
+    background: radial-gradient(circle at 30% 30%, #cd5c5c, #a0522d, #8b4513);
+}
+
+.planet-box.mars:hover {
+    background: radial-gradient(circle at 30% 30%, #ff6b6b, #cd5c5c, #a0522d);
+    box-shadow: 0 8px 30px rgba(205, 92, 92, 0.5);
+}
+
+.planet-box.jupiter {
+    background: radial-gradient(circle at 30% 30%, #d2691e, #cd853f, #a0522d);
+    position: relative;
+}
+
+.planet-box.jupiter::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg, #8b4513, #d2691e, #8b4513);
+    top: 35%;
+    left: 0;
+    opacity: 0.7;
+}
+
+.planet-box.jupiter:hover {
+    background: radial-gradient(circle at 30% 30%, #ffa500, #d2691e, #cd853f);
+    box-shadow: 0 8px 30px rgba(210, 105, 30, 0.5);
+}
+
+.planet-box.saturn {
+    background: radial-gradient(circle at 30% 30%, #fad5a5, #daa520, #b8860b);
+    position: relative;
+}
+
+.planet-box.saturn::after {
+    content: '';
+    position: absolute;
+    width: 140%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #daa520, transparent);
+    top: 50%;
+    left: -20%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.planet-box.saturn:hover {
+    background: radial-gradient(circle at 30% 30%, #ffe4b5, #fad5a5, #daa520);
+    box-shadow: 0 8px 30px rgba(218, 165, 32, 0.5);
+}
+
+.planet-box.saturn:hover::after {
+    opacity: 0.8;
+    box-shadow: 0 0 10px #daa520;
+}
