@@ -1,0 +1,126 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Game container */
+.game-container {
+  background: rgb(228, 237, 255);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Message and attempts */
+#message {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+#attempts {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Input field */
+input[type="number"] {
+  padding: 10px;
+  width: 80px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+/* Difficulty dropdown */
+#difficulty {
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1em;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-of-type(1) {
+  background-color: #28a745; 
+}
+
+button:nth-of-type(2) {
+  background-color: #dc3545;
+}
+
+
+#leaderboard {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#leaderboard h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#leaderboard ol {
+  padding-left: 20px;
+  color: #555;
+}
+
+#highscore {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+#hint {
+  margin-top: 15px;
+  font-style: italic;
+  color: #6c757d;
+}
+
+#highscore.new-record {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #00f, 0 0 10px #00f;
+  }
+  to {
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+}
+
+
