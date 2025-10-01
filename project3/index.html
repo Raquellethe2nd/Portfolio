@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riddle Quiz Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>🧠 Riddle Quiz Game</h1>
+
+        <div id="start-screen">
+            <input type="text" id="player-name" placeholder="Enter your name" />
+            <select id="category-select">
+                <option value="all">All Categories</option>
+                <option value="logic">Logic</option>
+                <option value="funny">Funny</option>
+                <option value="science">Science</option>
+            </select>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" style="display:none;">
+            <p id="progress-text"></p>
+            <p id="timer-text"></p>
+            <p id="question-text"></p>
+            <div id="choices"></div>
+            <button id="hint-btn">Hint</button>
+        </div>
+
+        <div id="result-screen" style="display:none;">
+            <h2>🎉 Results</h2>
+            <p id="final-score"></p>
+            <ul id="score-list"></ul>
+            <div id="answer-breakdown"></div>
+            <button id="reset-btn">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

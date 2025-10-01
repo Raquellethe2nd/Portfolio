@@ -1,0 +1,277 @@
+[
+    {
+        "question": "What has many teeth but can’t bite?",
+        "choices": [
+            "Comb",
+            "Saw",
+            "Zipper",
+            "Shark"
+        ],
+        "answer": "Comb",
+        "category": "logic"
+    },
+    {
+        "question": "What can you catch but not throw?",
+        "choices": [
+            "Cold",
+            "Ball",
+            "Shadow",
+            "Breath"
+        ],
+        "answer": "Cold",
+        "category": "logic"
+    },
+    {
+        "question": "What goes up but never comes down?",
+        "choices": [
+            "Age",
+            "Smoke",
+            "Balloon",
+            "Rain"
+        ],
+        "answer": "Age",
+        "category": "logic"
+    },
+    {
+        "question": "What has one head, one foot, and four legs?",
+        "choices": [
+            "Bed",
+            "Table",
+            "Chair",
+            "Dog"
+        ],
+        "answer": "Bed",
+        "category": "logic"
+    },
+    {
+        "question": "What has hands but no arms or legs?",
+        "choices": [
+            "Clock",
+            "Glove",
+            "Robot",
+            "Statue"
+        ],
+        "answer": "Clock",
+        "category": "logic"
+    },
+    {
+        "question": "What has a heart that doesn’t beat?",
+        "choices": [
+            "Stone",
+            "Artichoke",
+            "Robot",
+            "Clock"
+        ],
+        "answer": "Artichoke",
+        "category": "logic"
+    },
+    {
+        "question": "What comes down but never goes up?",
+        "choices": [
+            "Rain",
+            "Age",
+            "Gravity",
+            "Ball"
+        ],
+        "answer": "Rain",
+        "category": "logic"
+    },
+    {
+        "question": "Why did the scarecrow win an award?",
+        "choices": [
+            "He was outstanding in his field",
+            "He scared the most birds",
+            "He was stylish",
+            "He was made of gold"
+        ],
+        "answer": "He was outstanding in his field",
+        "category": "funny"
+    },
+    {
+        "question": "What do you call fake spaghetti?",
+        "choices": [
+            "Impasta",
+            "Noodle fraud",
+            "Spaghosti",
+            "Fauxguetti"
+        ],
+        "answer": "Impasta",
+        "category": "funny"
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "choices": [
+            "Oxygen",
+            "Carbon Dioxide",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        "answer": "Carbon Dioxide",
+        "category": "science"
+    },
+    {
+        "question": "What part of the cell is known as the powerhouse?",
+        "choices": [
+            "Nucleus",
+            "Mitochondria",
+            "Ribosome",
+            "Cytoplasm"
+        ],
+        "answer": "Mitochondria",
+        "category": "science"
+    },
+    {
+        "question": "What has cities, but no houses; forests, but no trees; and rivers, but no water?",
+        "choices": [
+            "Map",
+            "Puzzle",
+            "Dream",
+            "Painting"
+        ],
+        "answer": "Map",
+        "category": "logic"
+    },
+    {
+        "question": "What invention lets you look right through a wall?",
+        "choices": [
+            "Window",
+            "X-ray",
+            "Mirror",
+            "Periscope"
+        ],
+        "answer": "Window",
+        "category": "logic"
+    },
+    {
+        "question": "Why don’t scientists trust atoms?",
+        "choices": [
+            "They make up everything",
+            "They explode easily",
+            "They’re unpredictable",
+            "They’re invisible"
+        ],
+        "answer": "They make up everything",
+        "category": "funny"
+    },
+    {
+        "question": "What planet is closest to the sun?",
+        "choices": [
+            "Venus",
+            "Earth",
+            "Mercury",
+            "Mars"
+        ],
+        "answer": "Mercury",
+        "category": "science"
+    },
+    {
+        "question": "What gas do plants absorb from the atmosphere?",
+        "choices": [
+            "Carbon Dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        "answer": "Carbon Dioxide",
+        "category": "science"
+    },
+    {
+        "question": "What planet is known as the Red Planet?",
+        "choices": [
+            "Mars",
+            "Venus",
+            "Jupiter",
+            "Saturn"
+        ],
+        "answer": "Mars",
+        "category": "science"
+    },
+    {
+        "question": "What is the boiling point of water in Celsius?",
+        "choices": [
+            "100",
+            "0",
+            "50",
+            "212"
+        ],
+        "answer": "100",
+        "category": "science"
+    },
+    {
+        "question": "Which organ is responsible for pumping blood?",
+        "choices": [
+            "Heart",
+            "Lungs",
+            "Brain",
+            "Kidneys"
+        ],
+        "answer": "Heart",
+        "category": "science"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "choices": [
+            "Au",
+            "Ag",
+            "Go",
+            "Gd"
+        ],
+        "answer": "Au",
+        "category": "science"
+    },
+    {
+        "question": "Why did the bicycle fall over?",
+        "choices": [
+            "It was two-tired",
+            "It hit a rock",
+            "It was sleepy",
+            "It had a flat tire"
+        ],
+        "answer": "It was two-tired",
+        "category": "funny"
+    },
+    {
+        "question": "Why don’t skeletons fight each other?",
+        "choices": [
+            "They don’t have the guts",
+            "They’re too bony",
+            "They’re pacifists",
+            "They’re scared"
+        ],
+        "answer": "They don’t have the guts",
+        "category": "funny"
+    },
+    {
+        "question": "What do you call a bear with no teeth?",
+        "choices": [
+            "Gummy bear",
+            "Soft bear",
+            "Toothless",
+            "Cub"
+        ],
+        "answer": "Gummy bear",
+        "category": "funny"
+    },
+    {
+        "question": "Why did the tomato turn red?",
+        "choices": [
+            "It saw the salad dressing",
+            "It was embarrassed",
+            "It was ripe",
+            "It got sunburned"
+        ],
+        "answer": "It saw the salad dressing",
+        "category": "funny"
+    },
+    {
+        "question": "Why can’t your nose be 12 inches long?",
+        "choices": [
+            "Because then it would be a foot",
+            "It would look weird",
+            "You’d trip on it",
+            "It’s biologically impossible"
+        ],
+        "answer": "Because then it would be a foot",
+        "category": "funny"
+    }
+]

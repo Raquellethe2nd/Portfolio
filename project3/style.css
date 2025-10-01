@@ -1,0 +1,66 @@
+body {
+  font-family: "Trade Winds", system-ui;
+  background: linear-gradient(to right, #bed3c3, #ebaca2, #ce6a6b);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: linear-gradient(to right, #bed3c3, #4a919e, #212e53);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+input,
+select,
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#choices button {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#choices button:hover {
+  background-color: #004d40;
+}
+
+#answer-breakdown {
+  text-align: left;
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+  .quiz-container {
+    padding: 1rem;
+  }
+
+  #choices button {
+    width: 100%;
+  }
+}
