@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whimsical Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="toggleCalc">🧮 open/close</button>
+
+  <select id="themeSwitcher">
+    <option value="">Default</option>
+    <option value="theme-retro">Retro</option>
+    <option value="theme-neon">Neon</option>
+  </select>
+
+  <div class="calculator-container">
+    <div class="calculator">
+      <img src="./4bf63113-bcf6-4de3-a83d-d81fbc8f6e33.png" alt="Logo" class="logo" />
+      <input type="text" id="display" class="display" disabled />
+      <div class="buttons">
+        <button>7</button><button>8</button><button>9</button><button>/</button>
+        <button>4</button><button>5</button><button>6</button><button>*</button>
+        <button>1</button><button>2</button><button>3</button><button>-</button>
+        <button>0</button><button>.</button><button>=</button><button>+</button>
+        <button id="clear">C</button>
+        <button id="prime">Prime?</button>
+        <button id="sqrt">√</button>
+      </div>
+      <div class="history">
+        <h3>History</h3>
+        <ul id="historyList"></ul>
+        <button id="clearHistory">Clear History</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
